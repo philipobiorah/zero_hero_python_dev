@@ -26,6 +26,11 @@ while True:
             case "subtract":
                 result = subtract(val1, val2)  
 
+            case "multiply":
+                result = multipy(val1, val2)    
+
+            case "divide":
+                result= divide(val1, val2)
         print(result)       
     except ValueError:
         print("Invalid input. Please enter a number. ")
